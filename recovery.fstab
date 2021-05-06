@@ -5,8 +5,6 @@
 /odm		ext4		/dev/block/bootdevice/by-name/odm		flags=display="Odm";backup=1;flashimg
 /kernel		emmc		/dev/block/bootdevice/by-name/kernel		flags=display="Kernel";backup=1;flashimg
 /ramdisk	emmc		/dev/block/bootdevice/by-name/ramdisk		flags=display="Ramdisk";backup=1;flashimg
-/product	ext4		/dev/block/bootdevice/by-name/product		flags=display="Product";backup=0;wipeingui;flashimg
-/product_image	emmc		/dev/block/bootdevice/by-name/product		flags=display="Product Image";backup=1;flashimg
 /system		ext4		/dev/block/bootdevice/by-name/system		flags=display="System";backup=1;flashimg
 /system_image	emmc		/dev/block/bootdevice/by-name/system		flags=display="System Image";backup=1;flashimg
 /vendor		ext4		/dev/block/bootdevice/by-name/vendor		flags=display="Vendor";backup=1;wipeingui;flashimg
